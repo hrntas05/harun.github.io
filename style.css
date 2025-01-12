@@ -1,114 +1,16 @@
-@keyframes fade-in {
-
-    0%{
-        opacity: 0.5;
-
-    }
-    100%{
-        opacity: 100;
-    }
-    
+body{
+    background-color: #333;
+    color: whitesmoke;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    animation: fade-in 0.3s;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  /* Tema renkleri */
-  :root {
-    --bg-color: #ffffff;
-    --text-color: #000000;
-  }
-  
-  [data-theme="dark"] {
-    --bg-color: #181818;
-    --text-color: #f0f0f0;
-  }
-  
-  /* Header ve navigasyon */
-  header {
-    padding: 1rem 2rem;
-    background-color: var(--bg-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid var(--text-color);
-  }
-  
-  h1 {
-    font-size: 1.5rem;
-  }
-  
-  #theme-btn {
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-  }
-  
-  main {
-    padding: 2rem;
-  }
-  
-  /* Projeler  bölümü */
-  h2 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-  }
-  
-  .project-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-  }
-  
-  .project-item {
-    background-color: var(--bg-color);
-    padding: 1rem;
-    border: 1px solid var(--text-color);
-    border-radius: 8px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  a {
-    color: var(--text-color);
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
+table{
+    width: 950px;
+}
 
-  footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: var(--bg-color);
-    border-top: 1px solid var(--text-color);
-  }
-  
-  /* Mobil uyum */
-  @media (max-width: 768px) {
-    nav h1 {
-      font-size: 1.2rem;
-    }
-  
-    main {
-      padding: 1rem;
-    }
-  
-    .project-list {
-      grid-template-columns: 1fr;
-    }
-  }
-  
+div{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+a{
+    color: greenyellow;
+}
